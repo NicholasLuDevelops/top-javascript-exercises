@@ -14,7 +14,7 @@ const sum = function(num) {
   return sum;
 };
 
-const multiply = function(...num) {
+const multiply = function(num) {
   let sum = 1;
   for(let i = 0; i < num.length; i++) {
     sum = sum * num[i];
