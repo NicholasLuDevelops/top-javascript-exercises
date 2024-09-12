@@ -1,11 +1,11 @@
-const convertToCelsius = function (temperature) {
-  let convertedTemp = (temperature - 32) * (5 / 9);
+const convertToCelsius = function (fahrenheit) {
+  let convertedTemp = (fahrenheit - 32) * (5 / 9);
   convertedTemp = Number(convertedTemp.toFixed(1));
   return convertedTemp;
 };
 
-const convertToFahrenheit = function (temperature) {
-  let convertedTemp = temperature * (9 / 5) + 32;
+const convertToFahrenheit = function (celsius) {
+  let convertedTemp = celsius * (9 / 5) + 32;
   convertedTemp = Number(convertedTemp.toFixed(1));
   return convertedTemp;
 };
